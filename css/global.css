@@ -18,7 +18,7 @@
 
 img {
     display: block;
-    width: 100%;
+    width: 50%;
     border: 10px solid var(--border-color);
     border-radius: 45%;
     box-shadow: 5px 5px 50px var(--shadow-color)
