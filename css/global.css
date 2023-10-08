@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --accent-color: rgb(58, 116, 125); 
+    --text-color: black;
+    --shadow-color: rgb(135, 208, 237);
+    --background-color: rgb(92, 91, 84);
+    --border-color: rgb(141, 214, 218);
+    scroll-behavior: smooth;
+    font-family: 'Satisfy', cursive;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border: 10px solid var(--border-color);
+    border-radius: 45%;
+    box-shadow: 5px 5px 50px var(--shadow-color)
+}
+
+h1 {
+    color: var(--accent-color);
+    text-align: center;
+}
+h2 {
+    color: rgb(99, 181, 209);
+    text-align: center;
+    margin: 20px auto;
+}
+.text {
+    text-align: center;
+    margin: 10px auto;
+}
+.h2 form {
+    text-align: center;
+}
+.form {
+    text-align: center;
+}
+.headlines {
+    margin: 10px 20px 10px 20px;
+}
+.options {
+    margin: 20px 30px 20px 30px;
+}
